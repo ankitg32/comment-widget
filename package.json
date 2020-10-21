@@ -1,0 +1,24 @@
+{
+  "name": "comment-widget",
+  "version": "1.0.0",
+  "description": "a comment widget using vanilla js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "author": "Ankit Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

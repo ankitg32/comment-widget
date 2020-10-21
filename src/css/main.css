@@ -1,0 +1,26 @@
+.post {
+    border: 1px solid darkgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.comment-box {
+    margin-bottom: 10px;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+}
+
+.more-comments {
+    position: relative;
+    bottom: 0;
+}
+
+.single-comment {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
